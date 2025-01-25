@@ -1,0 +1,29 @@
+åpne et shell: 
+    -> Windowsknapp + R
+    -> cmd
+    -> enter
+
+java -version
+Finns den ikke installer
+
+https://www.oracle.com/java/technologies/javase-downloads.html
+msi installer
+Under installasjonen, sørg for at du krysser av for å legge 
+til Java i PATH hvis det er et alternativ.
+
+    -> Naviger til mappen der Java ble installert (som regel: C:\Program Files\Java eller C:\Program Files (x86)\Java).
+    -> Finn mappen som heter noe som jdk-xx (f.eks. jdk-17 eller jdk-1.8).
+    -> Kopier hele banen til bin-mappen (for eksempel: C:\Program Files\Java\jdk-17\bin).
+
+    -> Trykk Win + R, skriv sysdm.cpl, og trykk Enter.
+    -> Gå til fanen Advanced, og klikk Environment Variables.
+    -> Under System variables, finn og marker variabelen Path, og klikk Edit.
+    -> Klikk New, og lim inn banen du kopierte hvis den mangler eller er feil (f.eks C:\Program Files\Java\jdk-17\bin).
+    -> Klikk OK i alle dialogboksene for å lagre.
+
+    -> kopier C:\Program Files\Java\jdk-xx (altså deler av linken)
+    -> Under System variables:
+    -> Klikk på New (hvis det ikke finnes en JAVA_HOME).
+    -> Legg til: Navn: JAVA_HOME
+    -> Verdi: Stien til Java-installasjonen (f.eks., C:\Program Files\Java\jdk-xx).
+    -> Finn variabelen Path i samme dialog, rediger den, og legg til: %JAVA_HOME%\bin (om det ikke er der.)
