@@ -1,0 +1,33 @@
+For å få Latex til å virke i vs code i Windows.
+
+Gå til nettsiden for latex. www.latex-project.org 
+
+På get i menyen 
+    -> velg så Tex_live og finn exe installeren 
+    -> installer (Obs!! sett av litt tid til dette, sikkert 2-3 timer)
+
+(Imens du venter)
+For å undo darkmode og få normale hotkeys etc. i Latex så må du lage engen profil.
+Klikk på tannhjulet nede i venstre(manage)(kan være annet symbol om du allerede har laget profiler)
+    -> Profiles
+    -> LaTeX (velg evt. eget symbol)
+    -> create
+For å velge den nye profilen
+    -> "Tannhulet" nede i venstre(evt annet)
+    -> Profiles
+    -> LaTeX
+Skifte tema
+    -> File
+    -> Preferences
+    -> Theme
+    -> Color Theme
+    -> Light modern eller lignende.
+
+Installere LaTeX for VS Code, sjekk at installasjonen er ferdig(det er den ikke) så: 
+I VS Code velg Extensions (ctrl+shift+x)
+    ->Installer Latex workshop av James Yu
+    ->Andre addons du evt. skulle måtte trenge mens du jobber med latex.
+    -> lag en fil.tex og åpne den, da skal do være i latex. Finn en mal.
+
+
+Husk å bytt profil tilbake når du er ferdig

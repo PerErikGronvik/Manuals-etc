@@ -1,0 +1,36 @@
+Push til tom oprettet gitthub:
+
+echo "# Noe tekst" >> README.md && \
+git init && \
+git add README.md && \
+git commit -m "first commit" && \
+git branch -M main && \
+read -p "Skriv inn GitHub-lenken til repoet: " github_link && \
+git remote add origin "$github_link" && \
+git push -u origin main
+
+
+
+
+Du har jobbet lokalt, men vil dele prosjektet med andre.
+Du vil bruke GitHub som en sikkerhetskopi.
+Repoet på GitHub eksisterer allerede (men er tomt).
+
+read -p "Skriv inn GitHub-lenken til repoet: " github_link && \
+git remote add origin "$github_link" && \
+git branch -M main && \
+git push -u origin main
+
+
+
+
+Klone en github
+
+read -p "Skriv inn GitHub-lenken til repoet: " github_link && \
+read -p "Skriv inn ønsket mappenavn: " mappe_navn && \
+git clone "$github_link" "$mappe_navn"
+
+
+
+
+For å oprette osv. må du ha CLI github, de fleste bruker bare å gå på github og oprette der, kopiere linken.
