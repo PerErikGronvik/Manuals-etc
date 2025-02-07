@@ -1,0 +1,19 @@
+Oppdatering av Windows 11
+Chrome -> Logg in på alt -> gå til alle sider som har cookie spørsmål.
+Avinstaller Northon og (installer evt eget antivirusprogram, eller ikke)
+Finn ut hvordan man omvender fn tasten for å få rask tilgang til fn tastene.
+geforce experience(installer hvis ikke, forutsatt nvidia grafikkort) → innstillinger → spill → deaktiver opptak og opplasting
+Instillinger -> skjerm -> lysstyrke og farge
+Innstillinger -> System -> Strøm og dvalemodus -> Avanserte
+Fjern bloatware og unødvendige apper
+Kontrollpanel → Lyd → Lyder → Ingen lyder → OK
+Kjør (Win + R) → sysdm.cpl → Avansert → Ytelse → Innstillinger → Juster for best ytelse → Bruk & OK
+Desverre er instillingen for bakgrunnskjøring inne på hver app i Windows 11, så du må gå inn i hver relevant app og deaktivere bakgrunnskjøring.
+Ctrl + Shift + Esc → Oppgavebehandling → Oppstart → Høyreklikk app → Deaktiver
+Innstillinger → System → Varslinger → Skru av varsler
+Innstillinger → Tilpasning → Farger → Gjennomsiktighet av
+Installer: Java → LaTeX → VS Code → Python → Git → Anaconda → Spotify → Discord → Steam → Battle.net → Office 365 → Zoom → Teams → Slack → OBS → VLC → Blender → GIMP → Audacity -> virtualbox
+Instillinger -> Personvern og instillinger -> Søketilatelser -> La søkeapper vise resultater -> Av
+evt innstillingsknapp i oppgavemenyen
+evt slå på bedre indeksering
+slå av pekertapping på touchpad

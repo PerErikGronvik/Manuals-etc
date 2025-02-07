@@ -1,6 +1,6 @@
 For å få Latex til å virke i vs code i Windows.
 
-Gå til nettsiden for latex. www.latex-project.org 
+Gå til nettsiden for latex. https://www.tug.org/texlive/ 
 
 På get i menyen 
     -> velg så Tex_live og finn exe installeren 

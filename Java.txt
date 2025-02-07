@@ -17,6 +17,7 @@ til Java i PATH hvis det er et alternativ.
 
     -> Trykk Win + R, skriv sysdm.cpl, og trykk Enter.
     -> Gå til fanen Advanced, og klikk Environment Variables.
+    
     -> Under System variables, finn og marker variabelen Path, og klikk Edit.
     -> Klikk New, og lim inn banen du kopierte hvis den mangler eller er feil (f.eks C:\Program Files\Java\jdk-17\bin).
     -> Klikk OK i alle dialogboksene for å lagre.
