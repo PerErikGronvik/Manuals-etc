@@ -1,3 +1,9 @@
+Setup for git første gang:
+
+git config --global user.name "PerErikGronvik"
+git config --global user.email "pererik87@gmail.com"
+
+
 Push til tom oprettet gitthub:
 
 echo "# Noe tekst" >> README.md && \

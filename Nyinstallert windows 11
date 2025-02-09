@@ -3,6 +3,8 @@ Chrome -> Logg in på alt -> gå til alle sider som har cookie spørsmål.
 Avinstaller Northon og (installer evt eget antivirusprogram, eller ikke)
 Finn ut hvordan man omvender fn tasten for å få rask tilgang til fn tastene.
 geforce experience(installer hvis ikke, forutsatt nvidia grafikkort) → innstillinger → spill → deaktiver opptak og opplasting
+    I geforce experience: innstillinger → generelt → deaktiver "start opp med windows"
+    I geforce experience: innstillinger -> generelt -> deaktiver "Overlegg i spill"
 Instillinger -> skjerm -> lysstyrke og farge
 Innstillinger -> System -> Strøm og dvalemodus -> Avanserte
 Fjern bloatware og unødvendige apper
@@ -17,3 +19,30 @@ Instillinger -> Personvern og instillinger -> Søketilatelser -> La søkeapper v
 evt innstillingsknapp i oppgavemenyen
 evt slå på bedre indeksering
 slå av pekertapping på touchpad
+Fjerne faner fra alt-tab Instillinger -> System -> Fleroppgavevisning -> Skru av "vis faner fra apper når du trykker alt + tab"
+Fra oppstartsmenyen ctrl + shift + esc deaktivere Xbox, Steam, OneDrive, Microsoft 365 Copilot, Microsoft Teams, MSI Center, Killer Intelligence Center, Terminal og eventuelt Telefonkobling.
+
+
+
+
+
+
+EVT:
+https://www.android.com/better-together/nearby-share-app/ istedenfor Microsoft Your Phone
+Google meldinger på telefon og nettside meldinger.google.com.
+Instillinger - > Personalisering -> låseskjerm -> bakgrunnsbilde -> velg bilde # Gjør at windwos slutter å laste end masse bilder for så å slette dem.
+
+Kjør som admin i powershell:
+$BloatwareApps = @(
+    "*Xbox.TCUI*", "*XboxSpeechToTextOverlay*", "*XboxGamingOverlay*", "*Microsoft.GamingApp*",
+    "*BingWeather*", "*BingNews*", "*BingSearch*",
+    "*Microsoft.WindowsAlarms*", "*Microsoft.MicrosoftStickyNotes*",
+    "*Microsoft.Copilot*",
+    "*Microsoft.YourPhone*", "*MicrosoftWindows.CrossDevice*"
+)
+foreach ($App in $BloatwareApps) { Get-AppxPackage $App | Remove-AppxPackage }
+
+taskschd.msc -> Microsoft -> XblGameSave -> Disable #XBOX åpner seg hver gang pcen blir inaktiv for å sjekke om den skal lagre spill og er hardkodet til oset.
+
+
+
