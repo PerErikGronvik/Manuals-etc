@@ -1,8 +1,16 @@
 Oppdatering av Windows 11
+    - Ikke installer  KB5051987
+        - https://answers.microsoft.com/en-us/windows/forum/all/kb5041587-update-literally-ruined-my-os/36a39cd0-c4c0-4938-9593-606868e879e4?page=1
+        - Tving installer de andre og restart et par ganger. Den kommer randomly som innstallert etter du intallerer de andre kumulative oppdateringene uten å ødelegge systemet.
 Chrome -> Logg in på alt -> gå til alle sider som har cookie spørsmål.
-Avinstaller Northon og (installer evt eget antivirusprogram, eller ikke)
+Avinstaller Northon og (installer evt eget antivirusprogram etter pcen er satt opp, eller ikke)
 Finn ut hvordan man omvender fn tasten for å få rask tilgang til fn tastene.
-geforce experience(installer hvis ikke, forutsatt nvidia grafikkort) → innstillinger → spill → deaktiver opptak og opplasting
+Cuda
+    Ikke last ned VS2022 17.13.0  Den krasher cuda og systemet blir broken. mulig det fikses senere.
+    Installer VS2019 ikke oppdater.
+    Installer cuda. cuda installerer nyere modell av driveren enn gforce experience.
+    evt oppdater
+geforce experience(installer hvis ikke, forutsatt nvidia grafikkort - oppdater til 2 ganger så får du forslag om å bytte til nvidia app) → innstillinger → spill → deaktiver opptak og opplasting
     I geforce experience: innstillinger → generelt → deaktiver "start opp med windows"
     I geforce experience: innstillinger -> generelt -> deaktiver "Overlegg i spill"
 Instillinger -> skjerm -> lysstyrke og farge
