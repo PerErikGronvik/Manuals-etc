@@ -50,7 +50,7 @@ $BloatwareApps = @(
 )
 foreach ($App in $BloatwareApps) { Get-AppxPackage $App | Remove-AppxPackage }
 
-taskschd.msc -> Microsoft -> XblGameSave -> Disable #XBOX åpner seg hver gang pcen blir inaktiv for å sjekke om den skal lagre spill og er hardkodet til oset.
+taskschd.msc -> Microsoft -> XblGameSave -> Disable #XBOX åpner seg hver gang pcen blir inaktiv for å sjekke om den skal lagre spill og er hardkodet til os'et.
 
 
 
@@ -59,4 +59,6 @@ deaktiver trege taster hotkey
 slå av pekerpresisjon
 
 Instillinger -> System -> Fleroppgavekjøring -> ikke vis faner når en trykker alt tab.
+
+Installer -> power toys -> og fjern popup spam knapper som ikke er ønskelig. Coopilot knappen som ertatter ctrl knappen.
 
